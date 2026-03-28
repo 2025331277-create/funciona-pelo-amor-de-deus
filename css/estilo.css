@@ -1,0 +1,63 @@
+body {
+  /* Um creme bem clarinho, quase branco, para ficar limpo */
+  background-color: #fad360; 
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18px;
+  line-height: 1.6;
+  max-width: 850px;
+  margin: 0 auto;
+  padding: 20px;
+  color: #333;
+}
+
+h1, h2 {
+  color: #7A3B1E;
+  margin-top: 40px;
+}
+
+p {
+  color: #5C4A32;
+  text-align: justify;
+}
+
+/* Letra capitular simples */
+p::first-letter {
+  font-size: 35px;
+  font-weight: bold;
+  color: #7A3B1E;
+}
+
+a {
+  color: #000;
+  font-weight: bold;
+}
+
+/* TABELA SIMPLES E LIMPA */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  background-color: #fff; /* Fundo branco para destacar do resto */
+}
+
+/* Borda de 1px em vez de 5px para o look moderno */
+th, td {
+  border: 1px solid #7A3B1E; 
+  padding: 12px;
+  text-align: left;
+}
+
+/* Cabeçalho com uma cor de destaque suave */
+th {
+  background-color: #f2e4cf;
+  color: #7A3B1E;
+}
+
+/* Ajuste simples para as imagens */
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 10px auto;
+  border: 1px solid #ccc;
+}
